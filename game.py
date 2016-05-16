@@ -29,7 +29,7 @@ print('hit enter to continue')
 pause = input()
 
 #start game loop
-while 1 == 1: 
+while True: 
 	os.system('cls' if os.name == 'nt' else 'clear')
 	settings.health = settings.health + data[settings.location]['health']
 	if settings.health < 1:
